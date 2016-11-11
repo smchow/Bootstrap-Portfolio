@@ -1,8 +1,34 @@
 img{
 	padding-left: 10px;
 }
+p{
+	padding: 20px;
+	color:red;
+}
+body{
+	background-color: #F8F8F8;
+}
 
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
 
+header {
+text-align: center;
+color: #fff;
+background: #18bc9c;
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	background-color: #666666;
+	}
 /*body{
 	background-color: #efeee7;
 	margin: 0;

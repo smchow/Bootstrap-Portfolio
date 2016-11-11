@@ -3,23 +3,36 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunita Chowdhury</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet"  href="css/reset.css">
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="css/styles.css">
     <style>
     img{
     	padding: 20px;
     }
 .bg-4 {
-    background-color: #2f2f2f;
+    background-color: #7896db;
     color: #ffffff;
+}
+header {
+text-align: center;
+color: #fff;
+background: #18bc9c;
+}
+
+footer{
+	background-color: #666666;
+	}
+
+.icimg{
+	height: 70px;
+	width: 70px;
 }
 </style>
   </head>
   <body>
   <div class="container">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default bg-4">
       <div class="container-fluid">
         <div class="navbar-header">
          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -42,8 +55,11 @@
 
     </div>
 
+
     <div class="container">
       <div class="row">
+      <div class="col-md-1"> 
+        	</div>
         <div class="col-md-6">
           <div class="page-header">
             <h1>About Me</h1>
@@ -56,8 +72,11 @@
               
          
                <img  src="http://placehold.it/150x150" alt="about image" class="img-rounded img-responsive pull-left">
-               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
-              </p>
+              	<p>
+					 I am a web application developer experienced in development of multi tier applications. I have worked as a software consultant for various financial firms. These days, I work as an independant consultant. <br/> 
+
+				</p>
+              
             </div>
           </div>
           
@@ -66,18 +85,24 @@
         	</div>
         <div class="col-md-3">
       
-             <h2>About Me</h2>
-       
-        	Images here
-        
-          
+            <h2>Contact Info</h2>
+				<hr/>
+				
+      				
+      				<img class=" icimg" src="images/Github.png" alt="">
+      				<img class=" icimg" src="images/linkedin.png" alt="">
+					<img class=" icimg" src="images/stackoverflow.png" alt="">
+					
+         
          </div>
         </div>
+        <div>	<footer class="container bg-4 text-center">
+  <p>CopyrightSunita 2016</a></p>
+</footer></div>
+
         </div>
 	</div>
-	<footer class="container-fluid bg-4 text-center">
-  <p>Copyright Sunita 2016</a></p>
-</footer>
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   </body>
